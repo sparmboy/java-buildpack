@@ -1,3 +1,4 @@
+
 # Cloud Foundry Java Buildpack
 # Copyright 2013-2017 the original author or authors.
 #
@@ -25,5 +26,5 @@ jvmkill_agent:
 memory_calculator:
   version: 3.+
   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
-  class_count: 
+  class_count: 20000
   stack_threads: 300
